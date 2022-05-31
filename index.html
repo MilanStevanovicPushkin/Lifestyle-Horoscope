@@ -1,0 +1,39 @@
+<!Doctype Html>
+<html>
+<head>
+   <title>Lifestyle Horoscope</title>
+   <script src="script.js"></script>
+    
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body onload="myFunction()">
+   <div>
+      <h2>Ovo je Vaš lajfstajl horoskop za datum 
+	     <input type="date" id="datePicker" onChange="readDate()" required>
+	  </h2>
+      <h2>Izaberite svoj znak: 
+	    <select onChange="readSign()" id='signPicker'>
+		 <option value="0">Ovan</option>
+         <option value="1">Bik</option>
+         <option value="2">Blizanci</option>
+         <option value="3">Rak</option>
+		 <option value="4">Lav</option>
+         <option value="5">Devica</option>
+         <option value="6">Vaga</option>
+         <option value="7">Škorpija</option>
+		 <option value="8">Strelac</option>
+         <option value="9">Jarac</option>
+         <option value="10">Vodolija</option>
+         <option value="11">Ribe</option>
+	    </select>
+	  </h2>
+	  <button onClick="predict()">Ok</button>
+   </div>
+   <table id="horoskop">
+   <tr><td> </td><td><h3>Kultura </h3></td> <td><p id="kultura"> </p></td></tr>
+   <tr><td> </td><td><h3>Sport   </h3></td> <td><p id="sport">   </p></td></tr>
+   <tr><td> </td><td><h3>Vreme   </h3></td> <td><p id="vreme">   </p></td></tr>
+   </table>
+</body>
+</html>

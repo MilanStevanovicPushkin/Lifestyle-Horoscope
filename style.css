@@ -1,0 +1,15 @@
+#horoskop {display:none;}
+h2, h3 {color: indigo;}
+button, select {color: indigo;
+        height: 2rem;
+		width: 5rem;}
+input {color: indigo;
+       height: 2rem;
+	   width: 7rem;}
+#kultura{color:red; background:white;}
+#sport{color:green;background:white;}
+#vreme{color:blue;background:white;}
+body {background-image: url("photo.jpg");
+       background-repeat: no-repeat;
+      background-color: #cccccc;
+	  }
